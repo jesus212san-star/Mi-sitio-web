@@ -1,14 +1,3 @@
-/* --- ESTILOS GENERALES Y RESETEOS --- */
-:root {
-    /* Variables de Color (puedes ajustarlas aquí) */
-    --primary-blue: #2a3d66; /* Azul profundo del cielo */
-    --accent-blue: #00bcd4;  /* Azul cian brillante para acentos */
-    --text-color: #ffffff;    /* Blanco para el texto */
-    --card-bg: rgba(255, 255, 255, 0.05); /* Fondo muy transparente para el efecto glass */
-    --card-border: rgba(255, 255, 255, 0.1); /* Borde sutil para el efecto glass */
-    --input-bg: rgba(0, 0, 0, 0.2); /* Fondo oscuro transparente para inputs */
-    --button-bg: rgba(255, 255, 255, 0.15); /* Fondo para botones secundarios */
-}
 
 * {
     margin: 0;
