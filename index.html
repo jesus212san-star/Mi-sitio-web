@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio de Login Anime - Estilo Glassmorphism</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="page-container">
+        
+        <header class="main-header">
+            <div class="logo">Logo</div>
+            <nav class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+            </nav>
+            <button class="nav-login-btn">Login</button>
+        </header>
+
+        <main class="content-area">
+            
+            <div class="login-card" id="loginCard">
+                <button class="close-btn" id="closeLogin"><i class="fas fa-times"></i></button>
+                
+                <h2>Login</h2>
+                
+                <form id="loginForm">
+                    <div class="input-group">
+                        <input type="email" id="email" placeholder="Email" required>
+                        <i class="fas fa-envelope input-icon"></i> </div>
+                    
+                    <div class="input-group">
+                        <input type="password" id="password" placeholder="Password" required>
+                        <i class="fas fa-lock input-icon"></i> </div>
+                    
+                    <div class="options-group">
+                        <label class="remember-me">
+                            <input type="checkbox" id="remember">
+                            <span class="checkmark"></span>
+                            Remember me
+                        </label>
+                        <a href="#" class="forget-password">Forget Password?</a>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Login</button>
+                    
+                    <p class="register-link">Don't have an account? <a href="#">Register</a></p>
+                </form>
+            </div>
+        </main>
+
+        <footer class="main-footer">
+            </footer>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
